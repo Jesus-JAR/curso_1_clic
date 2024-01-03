@@ -17,6 +17,11 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
     );
 
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'Twig\\Extra\\TwigExtraBundle\\' => 27,
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Runtime\\Symfony\\Component\\' => 34,
@@ -25,6 +30,7 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
             'Symfony\\Polyfill\\Intl\\Normalizer\\' => 33,
             'Symfony\\Polyfill\\Intl\\Grapheme\\' => 31,
             'Symfony\\Flex\\' => 13,
+            'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Contracts\\Service\\' => 26,
             'Symfony\\Contracts\\EventDispatcher\\' => 34,
             'Symfony\\Contracts\\Cache\\' => 24,
@@ -34,6 +40,7 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
             'Symfony\\Component\\String\\' => 25,
             'Symfony\\Component\\Runtime\\' => 26,
             'Symfony\\Component\\Routing\\' => 26,
+            'Symfony\\Component\\Process\\' => 26,
             'Symfony\\Component\\HttpKernel\\' => 29,
             'Symfony\\Component\\HttpFoundation\\' => 33,
             'Symfony\\Component\\Finder\\' => 25,
@@ -45,7 +52,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
             'Symfony\\Component\\Console\\' => 26,
             'Symfony\\Component\\Config\\' => 25,
             'Symfony\\Component\\Cache\\' => 24,
+            'Symfony\\Bundle\\TwigBundle\\' => 26,
+            'Symfony\\Bundle\\MakerBundle\\' => 27,
             'Symfony\\Bundle\\FrameworkBundle\\' => 31,
+            'Symfony\\Bridge\\Twig\\' => 20,
         ),
         'P' => 
         array (
@@ -53,6 +63,11 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
             'Psr\\EventDispatcher\\' => 20,
             'Psr\\Container\\' => 14,
             'Psr\\Cache\\' => 10,
+            'PhpParser\\' => 10,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Inflector\\' => 19,
         ),
         'A' => 
         array (
@@ -62,6 +77,14 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
     );
 
     public static $prefixDirsPsr4 = array (
+        'Twig\\Extra\\TwigExtraBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/extra-bundle',
+        ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
+        ),
         'Symfony\\Runtime\\Symfony\\Component\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/runtime/Internal',
@@ -85,6 +108,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'Symfony\\Flex\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/flex/src',
+        ),
+        'Symfony\\Contracts\\Translation\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
         'Symfony\\Contracts\\Service\\' => 
         array (
@@ -121,6 +148,10 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'Symfony\\Component\\Routing\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/routing',
+        ),
+        'Symfony\\Component\\Process\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/process',
         ),
         'Symfony\\Component\\HttpKernel\\' => 
         array (
@@ -166,9 +197,21 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         array (
             0 => __DIR__ . '/..' . '/symfony/cache',
         ),
+        'Symfony\\Bundle\\TwigBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/twig-bundle',
+        ),
+        'Symfony\\Bundle\\MakerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/maker-bundle/src',
+        ),
         'Symfony\\Bundle\\FrameworkBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/framework-bundle',
+        ),
+        'Symfony\\Bridge\\Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/twig-bridge',
         ),
         'Psr\\Log\\' => 
         array (
@@ -185,6 +228,14 @@ class ComposerStaticInit2e074b178cf99c894ccdda33ec3f7bde
         'Psr\\Cache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/cache/src',
+        ),
+        'PhpParser\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
+        ),
+        'Doctrine\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
         'App\\Tests\\' => 
         array (
