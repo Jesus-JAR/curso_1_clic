@@ -1338,7 +1338,7 @@
       </call>
     </service>
     <service id="router.request_context" class="Symfony\Component\Routing\RequestContext" constructor="fromUri">
-      <argument></argument>
+      <argument>http://localhost</argument>
       <argument>localhost</argument>
       <argument>http</argument>
       <argument>80</argument>
